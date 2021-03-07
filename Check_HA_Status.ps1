@@ -2,11 +2,8 @@
 #Set-PowerCLIConfiguration -InvalidCertificateAction Ignore -Confirm:$false
 
 $VCServer = "Inserisci l'indirizzo del cluster"
-#$File="C:\Users\jonathan\Documents\Archivio\SCRIPT-HA-CLUSTER\Password.txt"
 $User="Inserisci il nome utente"
 $pass="Inserisci la password"
-#$File_tmp="C:\Program Files\NSClient++\scripts\tmp.txt"
-#$File_HA="C:\Program Files\NSClient++\scripts\Ha_Status_VcenterAZ.txt"
 $File_tmp="C:\Temp\tmp.txt"
 $File_HA="Inserisci il percorso del file .txt dove va a scrivere lo stato degli host"
 $Numhosts=3
